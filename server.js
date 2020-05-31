@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budgettracker", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_4fkr4n0z:1lm1lfig620r7ah25a5hh19c77@ds25001.mlab.com:25001/heroku_4fkr4n0z", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
